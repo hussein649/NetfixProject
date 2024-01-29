@@ -9,12 +9,12 @@ const Footer = () => {
   return (
     <div className="footer__wrapper">
       <div className="inner__wrapper">
-        <icon className="footer_icons">
+        <ul className="footer_icons">
           <li><FacebookOutlinedIcon /></li>
           <li><InstagramIcon /></li>
           <li> <YouTubeIcon /></li>
           <li><XIcon /></li>
-        </icon>
+        </ul>
         <div className="footer_data">
           <ul>
             <li>Audio Description</li>
